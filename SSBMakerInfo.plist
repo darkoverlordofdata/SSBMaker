@@ -1,0 +1,17 @@
+{
+    ApplicationDescription = "Make SSB Web Applications";
+    ApplicationIcon = "SSBMaker.png";
+    ApplicationName = SSBMaker;
+    ApplicationRelease = "1.0.0";
+    Authors = (
+	"darkoverlordofdata"
+    );
+    Copyright = "Copyright (C) 2023 GPL2";
+    CopyrightDescription = "Released under GPL2";
+    FullVersionID = "1.0.0";
+    NSExecutable = SSBMaker;
+    NSIcon = "SSBMaker.png";
+    NSPrincipalClass = NSApplication;
+    NSRole = Application;
+    URL = "http://darkoverlordofdata.com/ssbmaker/";
+}
