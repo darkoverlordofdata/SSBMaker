@@ -45,6 +45,8 @@ Source/SSBWindow.m \
 Source/AppDelegate.m \
 Source/SSBFileManager.m \
 
+OBJC_FLAGS+= -DOBJC_RUNTIME_2_0
+
 ifneq ($(filter $(_SYS),MSYS MinGW),)
 OBJC_LIBS+= -ldispatch
 endif

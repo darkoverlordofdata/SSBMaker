@@ -8,10 +8,8 @@
 
 
 @interface SSBFileManager : NSObject 
-{
-    NSString* _rootPath;
-}
 @property (strong, nonatomic) NSString *rootPath;
+@property (strong, nonatomic) NSString *bundlePath;
 
 - (instancetype) init;
 - (NSString*) filePath:(NSString*) name;
